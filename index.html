@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewpoint" content="width = width-device, initial-scale = 1">
+	<title>form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+</head>
+<body>
+<div class="container">
+	<h1 class="form-title">Registration</h1>
+	<form action="response.html" method="post" name="form">
+	
+	<div class="main-user-info">
+		<div class="user-input-box">
+			<label for="firstName">First Name:</label>
+			<input type="firstname" name="fname" 
+			id="fname"
+			required
+			placeholder=" enter firstName" />
+		</div>
+
+			<div class="user-input-box">
+			<label for="lastname">Last name:</label>
+			<input type="lastname" name="lname" 
+			id="lname"
+			
+			required
+			
+			placeholder="lastname"/>
+		</div>
+
+			<div class="user-input-box">
+			<label for="username">Username:</label>
+			<input type="username" name="uname" 
+			id="uname"
+			
+			required
+	
+			placeholder="enter username"/>
+		</div>
+
+
+	
+
+		
+
+
+	<div class="user-input-box">
+	<label for="phone number">Phone number:</label>
+			<input type="" name="phone"
+			id="phone"
+		
+			
+		required
+			placeholder="enter phone number"/>
+		</div>
+
+	<div class="user-input-box">
+			<label for="password">Password:</label>
+			<input type="password" name="pword" 
+			id="pword"
+			
+			 required="" 
+			
+
+			placeholder="password"/>
+		</div>
+
+			<div class="user-input-box">
+			<label for="confirmpassword">Confirm password:</label>
+			<input type="password"  name="cpword" 
+			id="cpword"
+			
+			required="" 
+			
+			placeholder="confirm password"/>
+		</div>
+
+	</div>
+	<div class="gender-details-box">
+		<span class="gender-title">Gender</span>
+		<div class="gender-category" id="gender">
+		<input type="radio" name="gender" value="male" id="gender">
+	<label class="for">Male</label>
+	<input type="radio" name="gender" value="female" id="gender">
+	<label class="for">Female</label>
+	<input type="radio" name="gender" value="other" id="gender">
+	<label class="for">other</label>
+		</div>
+	</div>
+		<div class="form-submit-btn">
+	<button type="submit" id="submit">Register</button>
+
+		</div>
+		<p class="click"><a href="login.html">Already a member, click here to login</a></p>
+	
+	</form>
+
+
+
+	</div>
+
+
+
+
+<!-- <script type="">
+	function auth(){
+		var username =
+	}
+</script> -->
+
+</body>
+</html>
+<script type="text/javascript" src="js/script.js"></script>
